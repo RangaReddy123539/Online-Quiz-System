@@ -130,11 +130,16 @@ body {
 
 <br>
 
-<a class="btn"
-   href="student-dashboard.jsp">
-   Dashboard
+<a href="student-dashboard.jsp">
+    <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button>
 </a>
-
 </div>
 
 </body>

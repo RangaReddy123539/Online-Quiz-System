@@ -58,7 +58,7 @@
 
     <h2>Student Quiz Results</h2>
 
-    <a href="admin-dashboard.jsp">← Dashboard</a>
+    
 
     <br><br>
 
@@ -134,7 +134,17 @@
         }
     %>
 
-</table>
+</table><br>
+
+<a href="admin-dashboard.jsp">
+       <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button>
 
 </div>
 

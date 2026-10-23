@@ -61,9 +61,10 @@
 
     <h2>Manage Questions</h2>
 
-    <a href="admin-dashboard.jsp">← Dashboard</a>
+   
+</a>
     |
-    <a href="add-question.jsp">+ Add Question</a>
+    <a href="add-question.jsp"><button>Add Question</button></a>
 
     <br><br>
 
@@ -121,6 +122,18 @@
         %>
 
     </table>
+    
+    <br>
+    
+     <a href="admin-dashboard.jsp">
+    <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button>
 
 </div>
 

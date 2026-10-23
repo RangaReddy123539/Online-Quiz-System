@@ -224,10 +224,16 @@ h2 {
 <%
     }
 %>
-
-<a class="back" href="modules">
-    ← Back to Modules
-</a>
+<br>
+<a href="student-dashboard.jsp">
+       <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button>
 
 </div>
 

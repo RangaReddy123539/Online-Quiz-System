@@ -101,8 +101,14 @@
     <br>
 
     <a href="admin-dashboard.jsp">
-        ← Back to Dashboard
-    </a>
+       <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button>
 
 </div>
 

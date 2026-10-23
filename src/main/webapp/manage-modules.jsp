@@ -70,10 +70,9 @@
 
     <h2>Manage Modules</h2>
 
-    <a href="admin-dashboard.jsp">← Dashboard</a>
-    <br><br>
+   
 
-    <a href="add-module.jsp">+ Add New Module</a>
+    <a href="add-module.jsp"><button>Add New Module</button></a>
 
     <br><br>
 
@@ -142,8 +141,20 @@
         %>
 
     </table>
+    
+    <br>
 
-</div>
+
+   <a href="admin-dashboard.jsp"> 
+    <button style="background-color: blue;
+                   color: white;
+                   padding: 10px 20px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;">
+        Back to Dashboard
+    </button><br>
+    </div>
 
 </body>
 </html>
